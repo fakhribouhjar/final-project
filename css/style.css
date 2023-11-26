@@ -96,4 +96,41 @@ body{
   
 }
 
+.cardscontainer{
+display: grid;
+height: 300px;
+width: 98%;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 10px;
+padding: 10px;
+}
+#daniel{
+  display: flex;
+  align-items: normal;
+}
+#danielcard{
+  background-color: #3d3f40;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+.danieltxt{
+  color: #fff;
+  font-family: "rubik";
+}
+  #orangetxt{
+    color: orange;
+  }
+  #orangetxt:hover{
+    color: grey;
+  }
+  #headertxt{
+    font-family: "blanco";
+  }
+  #midtxt:hover{
+    color:grey;
+  }
+  
   
