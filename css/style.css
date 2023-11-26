@@ -1,0 +1,30 @@
+.backrnd{
+    background-color: #333;
+}
+.nav-menu {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  .nav-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-menu li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .nav-menu a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+  }
+  
+  .nav-menu a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
